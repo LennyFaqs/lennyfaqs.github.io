@@ -7,7 +7,7 @@ function displayData(obj)
     console.log(obj);
     console.log(obj.className);
 
-    display.innerHTML = '<div data-include="html/data/'+ obj.class +'/'+ txt +'.html"></div>';
+    display.innerHTML = '<div data-include="html/data/'+ obj.className +'/'+ txt +'.html"></div>';
     reloadFiles();
     //display.setAttribute("data-include", txt);
 };
