@@ -4,10 +4,7 @@ function displayData(obj)
 
     let txt = obj.firstChild.nodeValue.replace(/\s/g, '');
     txt = txt[0].toLowerCase() + txt.slice(1);
-    console.log(obj);
-    console.log(obj.className);
 
     display.innerHTML = '<div data-include="html/data/'+ obj.className +'/'+ txt +'.html"></div>';
     reloadFiles();
-    //display.setAttribute("data-include", txt);
 };
