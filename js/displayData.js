@@ -1,4 +1,6 @@
-function displayData()
+function displayData(obj)
 {
-    alert("Evènement de click détecté");
+    var display = document.getElementsByClassName("display");
+    console.log(obj);
+    display.setAttribute("data-include", obj.innerHtml);
 };
