@@ -31,7 +31,7 @@ function ByName() {
 function ByMessages() {
     var el = document.getElementsByClassName("orderedLinks")[0];
 
-    members.sort();
+    members.sort((a, b) => a.distance - b.distance);
     let html = "";
     for (var key in members) {
         html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
