@@ -1,4 +1,4 @@
-var members =  {
+var members = {
     "Alex": "104.000",
     "Casette": "76.000",
     "Deus": "27.000",
@@ -14,7 +14,6 @@ var members =  {
     "Smith": "16.000",
     "SurpriseGajSex": "299",
     "Xano": "657",
-    "": "",
 };
 
 function ByName() {
@@ -31,9 +30,15 @@ function ByName() {
 function ByMessages() {
     var el = document.getElementsByClassName("orderedLinks")[0];
 
-    members.sort((a, b) => a.distance - b.distance);
+    var array = members[0];
+    members.forEach(m => {
+        for(let i = 0; i < array.length; i++) {
+            if(parseInt(m) <= array[i]) array.insert(i+1, m);
+        }
+    });
+
     let html = "";
-    for (var key in members) {
+    for (var key in array) {
         html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
     }
 
