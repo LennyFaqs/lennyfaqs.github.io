@@ -20,7 +20,7 @@ function ByName() {
     var el = document.getElementsByClassName("orderedLinks")[0];
 
     let html = "";
-    for (var key in members) {
+    for (var key in result) {
         html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
     }
 
@@ -30,15 +30,8 @@ function ByName() {
 function ByMessages() {
     var el = document.getElementsByClassName("orderedLinks")[0];
 
-    var array = [members[0]];
-    for (var key in members) {
-        for(let i = 0; i < array.length; i++) {
-            if(parseInt(members[key]) <= array[i]) array.insert(i+1, members[key]);
-        }
-    }
-
     let html = "";
-    for (var key in array) {
+    for (var key in result) {
         html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
     }
 
