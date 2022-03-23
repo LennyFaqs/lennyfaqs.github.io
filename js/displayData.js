@@ -1,10 +1,10 @@
 function displayData(obj)
 {
-    var display = document.getElementsByClassName("display")[0];
+    var el = document.getElementsByClassName("display")[0];
 
     let txt = obj.firstChild.nodeValue.replace(/\s/g, '');
     txt = txt[0].toLowerCase() + txt.slice(1);
 
-    display.innerHTML = '<div data-include="html/data/'+ obj.className +'/'+ txt +'.html"></div>';
+    el.innerHTML = '<div data-include="html/data/'+ obj.className +'/'+ txt +'.html"></div>';
     reloadFiles();
 };
