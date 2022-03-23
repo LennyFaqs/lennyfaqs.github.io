@@ -22,7 +22,7 @@ function ByName() {
 
     let html = "";
     for (var key in members) {
-        html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +">";
+        html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
     }
 
     el.innerHTML = html;
@@ -34,7 +34,7 @@ function ByMessages() {
     members.sort();
     let html = "";
     for (var key in members) {
-        html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +">";
+        html += "<a href=\"#\" onclick=\"displayData(this);\" class=\"members\">"+ key +"</a> - "+ members[key] +"<br>";
     }
 
     el.innerHTML = html;
