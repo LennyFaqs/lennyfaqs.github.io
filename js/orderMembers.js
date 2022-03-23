@@ -30,7 +30,7 @@ function ByName() {
 function ByMessages() {
     var el = document.getElementsByClassName("orderedLinks")[0];
 
-    var array = members[0];
+    var array = [members[0]];
     for (var key in members) {
         for(let i = 0; i < array.length; i++) {
             if(parseInt(members[key]) <= array[i]) array.insert(i+1, members[key]);
