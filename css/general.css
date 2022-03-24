@@ -1,0 +1,28 @@
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #464646;
+	border-bottom: 1px solid;
+}
+
+header a:link, header a:visited {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px;
+}
+
+header a:hover {
+	color: #31b0d5;
+}
+
+.header-text {
+	color: #31b0d5;
+	position: fixed;
+	top: 0;
+	left: 10px;
+	z-index: 101;
+	font-weight: bold;
+}
