@@ -2,7 +2,6 @@ header {
 	position: sticky;
 	top: 0;
 	width: 100%;
-	height: 6%;
 	background-color: #464646;
 	border-bottom: 1px solid;
 }
@@ -27,7 +26,7 @@ header a:hover {
 }
 
 body {
-	background-image: url(img/wallpaper.jpg);
+	/*background-image: url(../img/wallpaper.jpg);*/
 	background-attachment: fixed;
 	background-size: 100%;
 	margin: auto;
@@ -42,6 +41,17 @@ footer {
 footer p {
 	bottom: 0;
 	margin: 0px 0px 0px 0px;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
 }
 
 
@@ -98,15 +108,4 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-}
-
-.flexRow {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.flexCol {
-	display: flex;
-	flex-direction: column;
 }
