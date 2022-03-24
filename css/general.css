@@ -6,32 +6,13 @@ header {
 	border-bottom: 1px solid;
 }
 
-header a:link, header a:visited {
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	margin: 5px;
-}
-
-header a:hover {
-	color: #31b0d5;
-}
-
-.header-text {
-	color: #31b0d5;
-	position: fixed;
-	top: 0;
-	left: 10px;
-	font-weight: bold;
-}
-
 body {
-	/*background-image: url(../img/wallpaper.jpg);*/
+	background-image: url(../img/wallpaper.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
 	margin: auto;
 }
-
+/*
 footer {
 	color: gray;
 	background-color: #464646;
@@ -42,7 +23,7 @@ footer p {
 	bottom: 0;
 	margin: 0px 0px 0px 0px;
 }
-
+*/
 .flexRow {
 	display: flex;
 	flex-direction: row;
