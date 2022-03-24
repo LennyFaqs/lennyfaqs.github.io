@@ -1,8 +1,12 @@
+html {
+
+}
+
 header {
-	position: fixed;
+	position: sticky;
 	top: 0;
 	width: 100%;
-	z-index: 100;
+	height: 6%;
 	background-color: #464646;
 	border-bottom: 1px solid;
 }
@@ -23,6 +27,79 @@ header a:hover {
 	position: fixed;
 	top: 0;
 	left: 10px;
-	z-index: 101;
 	font-weight: bold;
+}
+
+body {
+	background-image: url(/img/wallpaper.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	margin: auto;
+}
+
+footer {
+	color: gray;
+	background-color: #464646;
+	border-top: 1px solid;
+}
+
+footer p {
+	bottom: 0;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+/* Dropdown */
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #38444d;
+}
+
+header li {
+	float: left;
+}
+
+.dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: red;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
 }
