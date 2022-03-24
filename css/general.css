@@ -1,7 +1,3 @@
-html {
-
-}
-
 header {
 	position: sticky;
 	top: 0;
@@ -31,7 +27,7 @@ header a:hover {
 }
 
 body {
-	background-image: url(/img/wallpaper.jpg);
+	background-image: url(img/wallpaper.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
 	margin: auto;
@@ -102,4 +98,15 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
 	display: block;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.flexCol {
+	display: flex;
+	flex-direction: column;
 }
