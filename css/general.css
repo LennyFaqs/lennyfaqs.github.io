@@ -24,7 +24,7 @@ article {
 	margin: 13% 20% 7% 20%;
 	padding: 2%;
 	background-color: #464646;
-	flex-grow: 1;
+	flex-grow: 100;
 }
 article p {
 	margin: 0;
@@ -34,6 +34,7 @@ footer {
 	text-align: center;
 	background-color: #464646;
 	border-top: 1px solid;
+	flex-grow: 1;
 }
 footer p, a {
 	color: gray;
