@@ -14,12 +14,12 @@ body {
 	background-image: url(../img/wallpaper.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
-	margin-top: 13% 0 7% 0;
+	margin: auto;
 	color: white;
 }
 
 article {
-	/*margin: 0 20% 7% 20%;*/
+	margin: 13% 20% 7% 20%;
 	padding: 2%;
 	background-color: #464646;
 }
