@@ -13,6 +13,11 @@ body {
 	margin: auto;
 	color: white;
 }
+
+article {
+	margin: 10% 20% 10% 20%;
+	padding: 15px;
+}
 /*
 footer {
 	color: gray;
