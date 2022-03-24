@@ -1,5 +1,5 @@
 html {
-	margin: auto;
+	height: 100%;
 }
 
 header {
@@ -27,7 +27,6 @@ article p {
 	margin: 0;
 }
 
-
 footer {
 	color: gray;
 	background-color: #464646;
@@ -36,8 +35,10 @@ footer {
 
 footer p {
 	bottom: 0;
-	margin: 0px 0px 0px 0px;
+	margin: 0;
+	padding: 10px
 }
+
 
 .flexRow {
 	display: flex;
