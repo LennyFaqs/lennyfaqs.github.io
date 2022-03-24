@@ -15,13 +15,12 @@ body {
 	background-attachment: fixed;
 	background-size: 100%;
 	margin: auto;
-	padding-top: 13%;
-	height: 100%;
+	height: fit-content;
 	color: white;
 }
 
 article {
-	margin: 0% 20% 7% 20%;
+	margin: 13% 20% 7% 20%;
 	padding: 2%;
 	background-color: #464646;
 }
