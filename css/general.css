@@ -1,5 +1,6 @@
-html {
-	height: 100%;
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
 header {
@@ -11,11 +12,11 @@ header {
 }
 
 body {
+	display:flex; 
+	flex-direction:column; 
 	background-image: url(../img/wallpaper.jpg);
 	background-attachment: fixed;
 	background-size: 100%;
-	margin: auto;
-	height: fit-content;
 	color: white;
 }
 
