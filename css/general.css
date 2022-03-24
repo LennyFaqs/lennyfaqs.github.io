@@ -19,10 +19,14 @@ body {
 }
 
 article {
-	margin: 13% 20% 10% 20%;
+	margin: 13% 20% 10% 7%;
 	padding: 3%;
 	background-color: #464646;
 }
+article p {
+	margin: 0;
+}
+
 /*
 footer {
 	color: gray;
