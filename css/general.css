@@ -29,12 +29,14 @@ body {
 }
 
 footer {
-	background-color: #38444d;
 	text-align: center;
 	border-top: 1px solid;
 	flex-grow: 1;
 	bottom:0;
     height: 50px;
+}
+footer, footer div {
+	background-color: #38444d;
 }
 footer p, footer a {
 	color: gray;
@@ -84,7 +86,6 @@ article {
 	padding: 30px;
 	max-width: 90vh;
 	margin: 0 20% 10px 350px;
-	/*flex-grow: 100;*/
 }
 article p {
 	margin: 0;
