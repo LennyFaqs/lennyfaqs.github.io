@@ -4,7 +4,11 @@ function displayData(obj)
 
     let txt = obj.firstChild.nodeValue.replace(/\s/g, '');
     txt = txt[0].toLowerCase() + txt.slice(1);
+    let url = 'html/data/'+ obj.className +'/'+ txt +'.html';
 
-    el.innerHTML = '<div data-include="html/data/'+ obj.className +'/'+ txt +'.html"></div>';
+    window.location.href = url;
+/*
+    el.innerHTML = '<div data-include="'+ url +'"></div>';
     reloadFiles();
+    */
 };
