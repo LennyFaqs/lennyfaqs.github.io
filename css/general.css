@@ -28,10 +28,15 @@ footer {
 	flex-grow: 1;
     min-height: 50px;
 }
-footer p, a {
+footer p, footer a {
 	color: gray;
+    display: inline;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
 	margin: 0;
-	padding: 5px
+	padding: 5px;
 }
 /*#endregion*/
 
@@ -48,7 +53,7 @@ aside {
 	position:fixed;
 	left: 30px;
 }
-aside p, h1, h3 {
+aside p, aside h1, aside h3 {
     display: inline;
     vertical-align: top;
     font-family: 'Open Sans', sans-serif;
@@ -111,7 +116,7 @@ header li {
 }
 
 .dropbtn {
-	color: #555555;
+	color: white;
 	display: inline-block;
 	text-align: center;
 	padding: 14px 16px;
