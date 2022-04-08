@@ -6,9 +6,8 @@ function displayData(obj)
     txt = txt[0].toLowerCase() + txt.slice(1);
     let url = 'html/data/'+ obj.className +'/'+ txt +'.html';
 
-    window.location.href = url;
-/*
+    //window.location.href = url;
+
     el.innerHTML = '<div data-include="'+ url +'"></div>';
     reloadFiles();
-    */
 };
