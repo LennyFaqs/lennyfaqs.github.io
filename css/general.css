@@ -5,7 +5,7 @@ html, body {
 }
 
 header {
-	background-color: #464646;
+	background-color: #38444d;
 	position: fixed;
 	z-index: 100;
 	width: 100%;
@@ -29,7 +29,7 @@ body {
 }
 
 footer {
-	background-color: #464646;
+	background-color: #38444d;
 	text-align: center;
 	border-top: 1px solid;
 	flex-grow: 1;
@@ -51,7 +51,7 @@ footer p, footer a {
 
 /*#region Members*/
 aside {
-	background-color: #464646;
+	background-color: #38444d;
 	padding: 20px;
 	margin: 130px 0 0 0;
 	min-height: 50vh;
@@ -80,7 +80,7 @@ aside div {
 }
 
 article {
-	background-color: #464646;
+	background-color: #38444d;
 	padding: 30px;
 	max-width: 90vh;
 	margin: 0 20% 10px 350px;
