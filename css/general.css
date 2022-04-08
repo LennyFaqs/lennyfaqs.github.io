@@ -19,6 +19,9 @@ body {
 	background-size: 100%;
 	display:flex; 
 	flex-direction:column;
+}
+
+.display {
 	flex-grow: 20;
 }
 
@@ -53,8 +56,9 @@ aside {
 	max-height: 70vh;
 	width: 250px;
 	word-wrap: break-word;
-	position:fixed;
+	position: fixed;
 	left: 30px;
+	z-index: 1;
 }
 aside p, aside h1, aside h3 {
     display: inline;
